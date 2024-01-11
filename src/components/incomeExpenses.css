@@ -1,0 +1,27 @@
+
+.incomeExpenses{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fcefef;
+    border-radius:5px;
+    margin:20px 0px;
+    padding: 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.income>p ,.expenses>p{
+    margin: 0;
+}
+.income>p:first-child ,.expenses>p:first-child{
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.money{
+    font-weight: 500;
+}
+.plus{
+    color:rgb(43, 200, 43);
+}
+.minus{
+    color:red;
+}
